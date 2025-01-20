@@ -1,0 +1,79 @@
+.maindiv {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, red, blue) 1 stretch;
+  width:100%;
+}
+
+.Placement {
+  margin: 0;
+  margin-left: -13px;
+  font-size: 2rem;
+  margin-bottom: 7px;
+}
+
+p.text {
+  margin: 0;
+  color: #4280ef;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.button-1 {
+  padding: 17px 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(to right, red, blue);
+  cursor: pointer;
+}
+
+.button-1::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 9px;
+  background-color: white;
+  z-index: -1;
+  transition: 200ms;
+}
+
+.button-1::after {
+  content: attr(data);
+  font-size: 16px;
+  background: linear-gradient(to left, blue, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 200ms;
+}
+
+.button-1:hover::before {
+  opacity: 50%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.button-2 {
+  padding: 16px 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #dd382f;
+  color: white;
+  font-weight: 500;
+  border-radius: 9px;
+}

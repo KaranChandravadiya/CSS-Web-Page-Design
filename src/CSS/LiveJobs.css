@@ -1,0 +1,62 @@
+.liveJobDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.liveJobDiv h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.816);
+}
+
+.SearchImg {
+    margin-right: 20px;
+}
+
+.liveJobCard {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.jobs-card.applied {
+    position: relative;
+    border: none;
+}
+
+.jobs-card.applied:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    background: linear-gradient(45deg,red, blue);
+    border-radius: inherit;
+    mask: conic-gradient(#000 0 0) content-box exclude, conic-gradient(#000 0 0);
+}
+
+.liveJobCard:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    background: linear-gradient(red, blue);
+    border-radius: inherit;
+    mask: conic-gradient(#000 0 0) content-box exclude, conic-gradient(#000 0 0);
+}
+
+
+.live-jobs-card {
+    box-sizing: border-box;
+    background: #fff;
+    border: 2px solid #a39f9f;
+    border-radius: 20px;
+    padding: 16px;
+    width: 23%;
+    text-align: center;
+    overflow: hidden;
+    margin: 20px 0px;
+}

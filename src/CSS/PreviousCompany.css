@@ -1,0 +1,451 @@
+.PreviousCompanyMainDiv {
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.AlignSet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 8px;
+}
+
+.PreviousCompanyText {
+    font-size: 30px;
+}
+
+.linkEdit {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 20px;
+}
+
+.addedOn {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.TopDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 18px 18px 0px 0px;
+    background: linear-gradient(to right, red, blue);
+    color: white;
+    padding: 0 20px;
+}
+
+.PreviousCompanyH1 {
+    margin: 60px -80px 60px -70px;
+}
+
+.vertical-dotted-border {
+    border-left: 2px dotted rgb(203, 195, 195);
+    height: 112px;
+}
+
+.H1A {
+    margin: 0;
+    padding-left: 5px;
+    font-size: 60px;
+}
+
+.PGrade {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.titleP {
+    margin-top: -5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(169 166 166);
+}
+
+.TopDiv i {
+    font-size: 47px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+.UploadedWorkbooksBtn {
+    padding: 20px 50px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    margin-left: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border-radius: 9px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+.UploadedWorkbooksBtn::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 9px;
+    background-color: #f1f1f3;
+    z-index: -1;
+    transition: 200ms;
+}
+
+.UploadedWorkbooksBtn::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(to left, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.UploadedWorkbooksBtn:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.previouscompanyCentertText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.previouscompanyCentertText h2 {
+    margin-top: 17px;
+    margin-left: -400px;
+    font-size: 25px;
+}
+
+.DownloadPngColor {
+    margin-right: 10px;
+    width: 25px;
+}
+
+.Table-Container {
+    width: 98%;
+    text-align: center;
+    margin: 20px 18px;
+    border-radius: 22px;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.custom-table th,
+.custom-table td {
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: rgba(0, 0, 0, 0.859);
+    color: white;
+    padding: 22px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.barsFilter {
+    width: 22px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.srNo {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.884);
+    margin-left: 10px;
+}
+
+.thAlign {
+    display: flex;
+    align-items: center;
+}
+
+.PdfImage {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.fileNames {
+    font-size: 20px;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.status {
+    padding: 13px 10px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.884);
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 120px;
+}
+
+.status.pending {
+    background-color: #F7F5D4;
+    border: 1px solid #FF9900;
+}
+
+.status.uploaded {
+    background-color: #DFF0D8;
+    border: 1px solid #4CAF50;
+}
+
+.status.rejected {
+    background-color: #FFCECE;
+    border: 1px solid #FF4D4D;
+}
+
+.action {
+    font-size: 20px;
+    padding: 22px 20px;
+    border-radius: 50px;
+    color: black;
+}
+
+.submitworkbook-btn {
+    padding: 17px 115px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+.submitworkbook-btn::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 9px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms;
+}
+
+.submitworkbook-btn::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(to left, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.submitworkbook-btn:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.timePeriod {
+    font-size: 20px;
+    color: #e54335;
+}
+
+.reminder {
+    font-size: 20px;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.downloadBtn {
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 17px 50px;
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    border-radius: 9px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+.viewBtn {
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 17px 50px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    border-radius: 9px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+.viewBtn::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 9px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms;
+}
+
+.viewBtn::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(to left, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.viewBtn:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.reuploadBtn {
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 17px 50px;
+    border: none;
+    align-items: center;
+    display: flex;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border-radius: 9px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+.downloadBtns {
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 17px 50px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    border-radius: 9px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+
+.downloadBtns::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 9px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms;
+}
+
+.downloadBtns::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(to left, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.downloadBtns:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.downloadBlack {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.uploadArrows {
+    width: 25px;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.eye {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.view-download-container {
+    display: flex;
+    gap: 10px;
+}

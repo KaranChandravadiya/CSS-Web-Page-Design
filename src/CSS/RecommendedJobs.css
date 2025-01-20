@@ -1,0 +1,188 @@
+.RecommendedMainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.RecommendedJobs {
+    color: rgba(0, 0, 0, 0.816);
+    font-size: 35px;
+    margin: 50px 0px -30px 7px;
+}
+
+.JobsCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.jobs-card {
+    box-sizing: border-box;
+    background: #fff;
+    border: 2px solid #a39f9f;
+    border-radius: 20px;
+    padding: 16px;
+    width: 23%;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.live-jobs-card.applied {
+    position: relative;
+    border: none;
+}
+
+.live-jobs-card.applied:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    background: linear-gradient(45deg,red, blue);
+    border-radius: inherit;
+    mask: conic-gradient(#000 0 0) content-box exclude, conic-gradient(#000 0 0);
+}
+
+.card-header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.816);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.CardRightImg {
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.Line {
+    border: 1px dotted #6a6666;
+    margin: 15px 0px;
+}
+
+.Line2 {
+    border: 1px dotted #6a6666;
+    margin: 15px 10px;
+}
+
+.card-type {
+    background-color: #d0f5d5;
+    padding: 10px 37px 10px 29px;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.816);
+    margin-top: 15px;
+    margin: 15px 0px 12px -31px;
+    display: inline-block;
+}
+
+.dotIcon {
+    display: inline-block;
+    font-size: 39px;
+    margin-top: 6px;
+}
+
+.ApplyNowBtn {
+    padding: 20px 50px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.837);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    width: 95%;
+    border-radius: 20px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+.ApplyNowBtn::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 20px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms;
+}
+
+.ApplyNowBtn::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(to left, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms;
+}
+
+.ApplyNowBtn:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.AppliedBtn {
+    padding: 20px 50px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    z-index: 1;
+    width: 95%;
+    border-radius: 20px;
+    background: linear-gradient(to right, red, blue);
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 20px;
+    color: #666;
+    padding: 5px;
+    margin-left: -8px;
+}
+
+.locationImg {
+    width: 35px;
+    margin-right: 7px;
+}
+
+.vacancy {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding-left: 7px;
+    color: #666;
+    font-size: 20px;
+    margin-left: -8px;
+}
+
+.vacancyImg {
+    width: 35px;
+}

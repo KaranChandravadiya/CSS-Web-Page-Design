@@ -1,0 +1,151 @@
+.MainDiv {
+    background-color: #2476bc;
+    border-radius: 20px;
+    padding: 20px 23px;
+    align-items: center;
+}
+
+.SecondDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 24px;
+    color: white;
+}
+
+.SecondDiv a {
+    color: white;
+    font-size: 20px;
+}
+
+.SecondDiv h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.JobCard {
+    display: flex;
+    gap: 18px;
+    justify-content: space-evenly;
+}
+
+.first-column {
+    background-color: white;
+    width: 24%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 25px;
+    border: 1px solid;
+}
+
+.JobCardLogo {
+    margin-right: 13px;
+}
+
+.first-column h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -25px;
+}
+
+.first-column h3 {
+    font-size: 26px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.888);
+    margin-top: -10px;
+    margin-left: -24px;
+}
+
+.column {
+    background-color: white;
+    width: 7%;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid;
+}
+
+.column p {
+    display: flex;
+    justify-content: center;
+}
+
+.column i {
+    font-size: 38px;
+}
+
+.column h1,
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.first-column .ApplicationDiv {
+    display: flex;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-column h4 {
+    margin: 5px;
+    margin-left: 2px;
+    font-family: monospace;
+}
+
+.ApplicationDiv h4 {
+    font-size: 29px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ApplicationDiv img {
+    margin-right: -53px;
+    margin-top: 32px;
+}
+
+.dotted-border {
+    border-top: 2px dotted black;
+}
+
+.first-column-SetAlign {
+    align-items: center;
+    display: flex;
+}
+
+.RightImg {
+    margin-right: 26px;
+    margin-left: 10px;
+}
+
+.textCenter {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ArrowLeft {
+    width: 40px;
+}
+
+.ColumnLogo {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.Number {
+    margin: 22px 0px;
+}
+
+.RightImage {
+    margin-bottom: 1px;
+    width: 50px;
+}
