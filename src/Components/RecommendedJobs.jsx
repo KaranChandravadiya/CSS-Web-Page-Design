@@ -38,14 +38,14 @@ const RecommendedJobs = () => {
                             </div>
                             <div>
                                 <h3 className="card-title">
-                                    {organisation} <span className="CardRightImg"><img src={CardRightImg} /></span>
+                                    {organisation} <span className="CardRightImg"><img src={CardRightImg} alt='' /></span>
                                 </h3>
                                 <div className='Line'></div>
                                 <div className="location">
-                                    <img src={LocationImg} className="locationImg" />{location}
+                                    <img src={LocationImg} className="locationImg" alt='' />{location}
                                 </div>
                                 <div className="vacancy">
-                                    <img src={ProfileImg} className="vacancyImg" /> {vacancy}
+                                    <img src={ProfileImg} className="vacancyImg" alt='' /> {vacancy}
                                 </div>
                             </div>
                             <div className='Line2'></div>

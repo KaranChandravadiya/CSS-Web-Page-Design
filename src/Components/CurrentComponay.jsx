@@ -17,9 +17,9 @@ const CurrentCompany = () => {
                 </div>
                 <div className="maindivCurrentCompanys">
                     <div className='CurrentCompanyDiv1'>
-                        <img src={Logo} />
+                        <img src={Logo} className='CurrentCompanyLogo' alt='' />
                         <h2>Ecubix Solution Pvt. Ltd.</h2>
-                        <img src={verificationImg} />
+                        <img src={verificationImg} alt='' />
                         <div className='vertical-dotted-border'></div>
                         <div>
                             <h1 className='A'>A</h1>
@@ -35,7 +35,7 @@ const CurrentCompany = () => {
                         <div>
                             <p className='title'>Working Period</p>
                             <p className='P-Tag'>January, 2024-present</p>
-                            <a href="" className='link'>Apply for Registration</a>
+                            <a href="/" className='link'>Apply for Registration</a>
                         </div>
                         <div>
                             <i className="fa-solid fa-caret-up"></i>
@@ -48,14 +48,14 @@ const CurrentCompany = () => {
                                 <p className='Card-p'>Last Updated August 29,2024</p>
                             </div>
                             <div>
-                                <p className='PdfText'><img src={PdfImg} className='PdfImg' /> Work Book - Aug 24 - Priyam...</p>
+                                <p className='PdfText'><img src={PdfImg} className='PdfImg' alt='' /> Work Book - Aug 24 - Priyam...</p>
 
                             </div>
                             <div >
-                                <button className='CardBtn'><img src={UploadArrow} className='UploadArrow' /> Submit Workbook</button>
+                                <button className='CardBtn'><img src={UploadArrow} className='UploadArrow' alt='' /> Submit Workbook</button>
                             </div>
                             <div className='CardLinkSpace'>
-                                <a href="" className='CardLink'>View All Your Previous Workbooks</a>
+                                <a href="/" className='CardLink'>View All Your Previous Workbooks</a>
                             </div>
                         </div>
                         <div className='CurrentCompanyCard'>
@@ -64,14 +64,14 @@ const CurrentCompany = () => {
                                 <p className='Card-p'>Last Updated August 29,2024</p>
                             </div>
                             <div>
-                                <p className='PdfText'><img src={PdfImg} className='PdfImg' /> Attendence Sheet - Aug 24 - Priyam...</p>
+                                <p className='PdfText'><img src={PdfImg} className='PdfImg' alt='' /> Attendence Sheet - Aug 24 - Priyam...</p>
 
                             </div>
                             <div >
-                                <button className='CardBtn'><img src={UploadArrow} className='UploadArrow' /> Submit Attendence</button>
+                                <button className='CardBtn'><img src={UploadArrow} className='UploadArrow' alt='' /> Submit Attendence</button>
                             </div>
                             <div className='CardLinkSpace'>
-                                <a href=""  className='CardLink'>View All Your Previous Attendence</a>
+                                <a href="/"  className='CardLink'>View All Your Previous Attendence</a>
                             </div>
                         </div>
                         <div className='FileUploadCard'>
@@ -81,10 +81,10 @@ const CurrentCompany = () => {
                             </div>
 
                             <div>
-                                <button className='CardUploadBtn'><img src={UploadArrowBlack} className='UploadArrow' /> Upload</button>
+                                <button className='CardUploadBtn'><img src={UploadArrowBlack} className='UploadArrow' alt='' /> Upload</button>
                             </div>
                             <div className='CardLinkSpace'>
-                                <a href="" className='CardUploadLink'>View All Your Previous Documents</a>
+                                <a href="/" className='CardUploadLink'>View All Your Previous Documents</a>
                             </div>
                         </div>
                     </div>

@@ -53,6 +53,7 @@ p.text {
   content: attr(data);
   font-size: 16px;
   background: linear-gradient(to left, blue, red);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   transition: 200ms;

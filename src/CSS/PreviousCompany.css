@@ -1,7 +1,15 @@
 .PreviousCompanyMainDiv {
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.PreviousCompanyMainDivVisible {
     border: 2px solid;
     border-radius: 20px;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .AlignSet {
@@ -27,7 +35,7 @@
     margin-left: 50px;
 }
 
-.TopDiv {
+.TopDivVisible {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -39,8 +47,25 @@
     padding: 0 20px;
 }
 
+.TopDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 18px 18px 18px 18px;
+    background: white;
+    color: black;
+    padding: 0 20px;
+}
+
 .PreviousCompanyH1 {
-    margin: 60px -80px 60px -70px;
+    margin: 60px -66px 60px -55px;
+    color: #000000db;
+}
+
+.PreviousCompanyH1Visible {
+    margin: 60px -66px 60px -55px;
 }
 
 .vertical-dotted-border {
@@ -48,26 +73,79 @@
     height: 112px;
 }
 
-.H1A {
+.vertical-border {
+    border-left: 2px solid rgb(102, 97, 97);
+    height: 112px;
+}
+
+.H1AVisible {
     margin: 0;
     padding-left: 5px;
     font-size: 60px;
 }
 
-.PGrade {
+.H1A {
+    font-size: 65px;
+    font-weight: 900;
+    margin: 0;
+    background: linear-gradient(103deg, red, purple, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.PGradeVisible {
     margin: 0;
     font-size: 20px;
     font-weight: 600;
 }
 
-.titleP {
-    margin-top: -5px;
-    font-size: 20px;
-    font-weight: 500;
+.PGrade {
+    font-size: 22px;
+    font-weight: 600;
+    margin: -6px 0px 0px -8px;
+}
+
+.Designation-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: -20px;
+    color: rgb(169 166 166);
+    margin-bottom: -5px;
+}
+
+.WorkingPeriod-title {
+    margin-top: -6px;
+    margin-bottom: -5px;
+    font-size: 22px;
+    margin-left: -20px;
+    font-weight: 600;
     color: rgb(169 166 166);
 }
 
+.SameTextTag {
+    font-size: 22px;
+    margin-left: -20px;
+    font-weight: 600;
+    line-height: 10px;
+    color: rgb(0 0 0 / 91%);
+}
+
+.SameTextTagVisible {
+    font-size: 22px;
+    margin-left: -20px;
+    font-weight: 600;
+    line-height: 10px;
+    color: white;
+}
+
 .TopDiv i {
+    font-size: 47px;
+    padding-top: 10px;
+    margin-right: 18px;
+}
+
+.TopDivVisible i {
     font-size: 47px;
     padding-top: 10px;
     margin-right: 15px;
@@ -105,6 +183,7 @@
     content: attr(data);
     font-size: 16px;
     background: linear-gradient(to left, blue, red);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     transition: 200ms;
@@ -268,6 +347,7 @@
     content: attr(data);
     font-size: 16px;
     background: linear-gradient(to left, blue, red);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     transition: 200ms;
@@ -350,6 +430,7 @@
     content: attr(data);
     font-size: 16px;
     background: linear-gradient(to left, blue, red);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     transition: 200ms;
@@ -416,6 +497,7 @@
     content: attr(data);
     font-size: 16px;
     background: linear-gradient(to left, blue, red);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     transition: 200ms;
@@ -448,4 +530,28 @@
 .view-download-container {
     display: flex;
     gap: 10px;
+}
+
+.LogoMainDiv {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GradeDiv {
+    width: 3.4%;
+}
+
+.DesignationDiv {
+    width: 20%;
+}
+
+.DesignationMainDiv {
+    margin-top: -29px;
+    width: 20%;
+}
+
+.WorkingPeriodDiv {
+    width: 20%;
 }

@@ -26,7 +26,7 @@ const LiveJobs = () => {
         <>
             <div className='liveJobDiv'>
                 <h1>Live Jobs</h1>
-                <span><img src={SearchImg} className='SearchImg' /><img src={FilterImg} /></span>
+                <span><img src={SearchImg} className='SearchImg' alt='' /><img src={FilterImg} alt='' /></span>
             </div>
             <div className='liveJobCard'>
                 <div className="RecommendedMainDivs">
@@ -48,14 +48,14 @@ const LiveJobs = () => {
                                 </div>
                                 <div>
                                     <h3 className="card-title">
-                                        {organisation} <span className="CardRightImg"><img src={CardRightImg} /></span>
+                                        {organisation} <span className="CardRightImg"><img src={CardRightImg} alt='' /></span>
                                     </h3>
                                     <div className='Line'></div>
                                     <div className="location">
-                                        <img src={LocationImg} className="locationImg" />{location}
+                                        <img src={LocationImg} className="locationImg" alt='' />{location}
                                     </div>
                                     <div className="vacancy">
-                                        <img src={ProfileImg} className="vacancyImg" /> {vacancy}
+                                        <img src={ProfileImg} className="vacancyImg" alt=''/> {vacancy}
                                     </div>
                                 </div>
                                 <div className='Line2'></div>

@@ -1,6 +1,5 @@
 import './App.css'
 import CurrentCompany from './Components/CurrentComponay'
-import GradeCard from './Components/GradeCard'
 import Header from './Components/Header'
 import LiveJobs from './Components/LiveJobs'
 import PreviousCompany from './Components/PreviousCompany'
@@ -15,7 +14,6 @@ function App() {
           <Header />
           <CurrentCompany />
           <PreviousCompany />
-          <GradeCard />
           <JobApplication />
           <RecommendedJobs />
           <LiveJobs />

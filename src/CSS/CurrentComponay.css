@@ -29,14 +29,18 @@
     width: 800px%;
 }
 
+.CurrentCompanyLogo {
+    margin-left: -45px;
+}
+
 .CurrentCompanyDiv1 i {
     font-size: 47px;
     padding-top: 40px;
 }
 
 .CurrentCompanyDiv1 h2 {
-    margin-left: -75px;
-    margin-right: -80px;
+    margin-left: -74px;
+    margin-right: -76px;
     font-size: 28px;
     color: #000;
 }
